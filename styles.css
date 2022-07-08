@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 900px auto;
+    gap: 2px;
+    padding: 10px;
+}
+
+.grid-container>div {
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+div {
+    font-size: 25px;
+}
